@@ -46,7 +46,7 @@ extensions = [
 ]
 
 versionwarning_messages = {
-    "latest": "The documentation you are currently viewing is for upcoming changes to the WPILib library." +
+    "latest": "The documentation you are currently viewing is for upcoming changes to WPILib." +
     " Please see the <a href=\"https://docs.wpilib.org\">stable</a> version for the current release of WPILib.",
 }
 
