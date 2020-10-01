@@ -42,7 +42,17 @@ extensions = [
     'sphinxext.linkcheckdiff',
     'hoverxref.extension',
     'notfound.extension',
+    'versionwarning.extension',
 ]
+
+versionwarning_messages = {
+    "latest": "The documentation you are currently viewing is for upcoming changes to the WPILib library." +
+    " Please see the <a href=\"https://docs.wpilib.org\">stable</a> version for the current release of WPILib.",
+}
+
+versionwarning_admonition_type = 'warning'
+versionwarning_banner_title = 'Warning!'
+versionwarning_body_selector = 'div[class="document"]'
 
 # Redirect branch
 rediraffe_branch = 'origin/master'
