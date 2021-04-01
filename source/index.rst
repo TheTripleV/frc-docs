@@ -60,6 +60,7 @@ Welcome to the *FIRST*\ |reg| Robotics Competition Control System Documentation!
    docs/software/can-devices/index
    docs/software/basic-programming/index
    docs/software/support/support-resources
+   docs/software/frc-glossary
 
 .. toctree::
    :maxdepth: 1
