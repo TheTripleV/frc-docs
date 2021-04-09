@@ -12,7 +12,7 @@ Proximity switch operation
 
 Proximity switches are switches - they operate a circuit between an "open" state (in which there *is not* connectivity across the circuit) and a "closed" one (in which there *is*).  Thus, proximity switches generate a digital signal, and accordingly, they are almost always connected to the roboRIO's :doc:`digital input <digital-inputs-hardware>` ports.
 
-Proximity switches can be either "normally-open," in which activating the switch closes the circuit, or "normally closed," in which activating the switch opens the circuit.  Some switches offer *both* a NO and a NC circuit connected to the same switch.  In practice, the effective difference between a NO and a NC switch is the behavior of the system in the case that the wiring to the switch fails, as a wiring failure will almost always result in an open circuit.  NC switches are often "safer," in that a wiring failure causes the system to behave as if the switch were pressed - as switches are often used to prevent a mechanism from damaging itself, this mitigates the chance of damage to the mechanism in the case of a wiring fault.
+Proximity switches can be either "normally-open," in which activating the switch closes the circuit, or "normally closed," in which activating the switch opens the circuit.  Some switches offer *both* a NO and a NC circuit connected to the same switch. I added a sentence here. In practice, the effective difference between a NO and a NC switch is the behavior of the system in the case that the wiring to the switch fails, as a wiring failure will almost always result in an open circuit.  NC switches are often "safer," in that a wiring failure causes the system to behave as if the switch were pressed - as switches are often used to prevent a mechanism from damaging itself, this mitigates the chance of damage to the mechanism in the case of a wiring fault.
 
 The digital inputs on the roboRIO have pull-up resistors that will make the input be high (1 value) when the switch is open, but when the switch closes the value goes to 0 since the input is now connected to ground.
 
@@ -30,7 +30,7 @@ There are several types of proximity switches that are commonly-used in FRC\ |re
 Mechanical Proximity Switches ("limit switches")
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/digital-inputs-hardware/limit-switch-to-roborio.svg
+.. image:: images/digital-inputs-hardware/hall-effect-sensor-to-roborio.svg
    :alt: A normally open limit switch connected to a channel of the roboRIO DIO.
 
 Mechanical proximity switches (more commonly known as "limit switches") are probably the most-commonly used proximity switch in FRC, due to their simplicity, ease-of-use, and low cost.  A limit switch is quite simply a switch attached to a mechanical arm, usually at the limits of travel.  The switch is activated when an object pushes against the switch arm, actuating the switch.
