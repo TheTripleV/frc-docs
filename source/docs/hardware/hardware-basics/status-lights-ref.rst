@@ -3,7 +3,7 @@
 Status Light Quick Reference
 ============================
 
-Many of the components of the FRC\ |reg| Control System have indicator lights that can be used to quickly diagnose problems with your robot. This guide shows each of the hardware components and describes the meaning of the indicators. Photos and information from Innovation FIRST and Cross the Road Electronics.
+Many of the components of the FRC\ |reg| Control System have indicator lights that can be used to quickly diagnose problems with your robot. This guide shows each of the hardware components and describes the meaning of the indicators. Photos and information from Innovation FIRST and Cross the Road Electronics. I changed this page.
 
 Robot Signal Light (RSL)
 ------------------------
@@ -23,7 +23,7 @@ Robot Signal Light (RSL)
 roboRIO
 -------
 
-.. image:: images/status-lights/roborio-status-lights.svg
+.. image:: images/status-lights/rsl.svg
   :alt: roboRIO status lights highlighted.
   :width: 400
 
