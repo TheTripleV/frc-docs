@@ -25,6 +25,12 @@ jobs:
       with:
         name: frc-docs-html
         path: build/html/
+    - name: Percy Test
+      uses: percy/snapshot-action@v0.1.2
+      with:
+        build-directory: "build/html"
+      env:
+        PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
     - name: Build PDF
       run: |
         make latexpdf
