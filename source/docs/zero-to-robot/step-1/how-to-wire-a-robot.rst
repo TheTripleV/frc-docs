@@ -63,12 +63,12 @@ Locate the following control system components and tools
 Create the Base for the Control System
 --------------------------------------
 
-For a benchtop test board, cut piece of 1/4" or 1/2" (6-12 mm) material (wood or plastic) approximately 24" x 16" (60 x 40 cm). For a Robot Quick Build control board see the supporting documentation for the proper size board for the chosen chassis configuration.
+For a benchtop test board, cut piece of 1/4" or 1/2" (6-12 mm) material (wood or plastic) approximately 24" x 16" (60 x 40 cm). New sentence. For a Robot Quick Build control board see the supporting documentation for the proper size board for the chosen chassis configuration.
 
 Layout the Core Control System Components
 -----------------------------------------
 
-.. image:: images/how-to-wire-a-robot/layout.jpg
+.. image:: images/how-to-wire-a-robot/ziptie.jpg
   :alt: A basic wiring layout.
 
 Lay out the components on the board. An example layout is shown in the image above.
