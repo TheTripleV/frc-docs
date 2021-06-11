@@ -1,4 +1,3 @@
-"docs/software/wpilib-overview/2020-Game-Data.rst" "docs/2020-overview/2020-Game-Data.rst"
 "docs/software/wpilib-overview/known-issues.rst" "docs/2020-overview/known-issues.rst"
 "docs/software/wpilib-overview/new-for-2020.rst" "docs/2020-overview/new-for-2020.rst"
 "docs/contributing/contribution-guidelines.rst" "docs/contributing/frc-docs/contribution-guidelines.rst"
