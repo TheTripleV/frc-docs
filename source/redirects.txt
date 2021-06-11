@@ -238,4 +238,4 @@
 "docs/software/examples-tutorials/machine-learning/understanding-precision.rst" "docs/software/wpilib-tools/axon/index.rst"
 "docs/software/examples-tutorials/machine-learning/uploading-data-to-aws-s3.rst" "docs/software/wpilib-tools/axon/index.rst"
 "docs/software/examples-tutorials/machine-learning/using-inference-output.rst" "docs/software/wpilib-tools/axon/index.rst"
-"docs/software/examples-tutorials/machine-learning/video-walkthrough.rst" "docs/software/wpilib-tools/axon/index.rst"
+"docs/MODIFIED_EXISTING_REDIRECT_IN_FILE.rst" "docs/software/wpilib-tools/axon/index.rst"
